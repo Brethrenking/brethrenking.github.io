@@ -1,0 +1,13 @@
+{
+  "Lua.diagnostics.globals": [
+    "readNumbers",
+    "sortNumbers",
+    "writeNumbers",
+    "parse_grid",
+    "showcol",
+    "showrow"
+  ],
+  "Lua.diagnostics.disable": [
+    "need-check-nil"
+  ]
+}
