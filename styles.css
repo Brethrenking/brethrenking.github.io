@@ -95,11 +95,21 @@ header nav ul li a:hover {
 .btn-secondary {
   background-color: #555;
 }
+
+/* Hero section images */
+#hero img {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+  height: auto;
+}
+
 .about-image {
   border-radius: 50%; /* Makes the image circular */
-  margin: 20px 0; /* Adds spacing around the image */
+  margin: 20px auto; /* Adds spacing around the image and centers it */
   width: 200px; /* Adjust as needed */
   height: auto; /* Keeps aspect ratio */
+  display: block; /* Makes centering work with margin: auto */
 }
 #about {
   padding: 60px 20px;
