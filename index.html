@@ -3,97 +3,150 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Josef Nashilongo, IT Professional, Systems Administrator, and health advocate based in Windhoek, Namibia.">
     <title>Josef Nashilongo | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
-<header>
-  <div class="container">
-      <h1>Thee Brethrenking</h1>
-      <nav>
-          <ul>
-              <li><a href="#hero">Home</a></li>
-              <li><a href="#about">About Me</a></li>
-              <li><a href="#contact">Contact</a></li>
-          </ul>
-      </nav>
-  </div>
-</header>
 <body>
-    <!-- Hero Section -->
-    <section id="hero">
-        <div class="hero-text">
-            <h1>Shaping Efficient IT Solutions, Supporting Resilient Minds</h1>
-            <img src="img/joe.jpeg" alt="Description of the image" width="500" height="auto">
-
-            <p>Hi, I’m Josef Nashilongo, a dedicated System Administrator and IT Technician with a mission to make IT operations seamless and secure.</p>
-            <p>I believe in a world where technology enables possibilities and strength transcends limitations.</p>
-            <a href="#contact" class="btn-primary">Get in Touch</a>
+    <header>
+        <div class="container nav-wrapper">
+            <div class="brand">Josef Nashilongo</div>
+            <nav aria-label="Main navigation">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
         </div>
-    </section>
+    </header>
 
-    <!-- Highlights Section -->
-    <section id="highlights">
-        <h2>What I Do</h2>
-        <div class="highlight-cards">
-            <div class="card">
-                <h3>Technical Excellence</h3>
-                <p>Proficient in network infrastructure, systems troubleshooting, and IT management for both Windows and Linux environments.</p>
+    <main>
+        <section id="home" class="hero">
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <p class="eyebrow">IT Professional • Systems Administrator • Advocate</p>
+                    <h1>Technology that powers people and progress.</h1>
+                    <p class="lead">I help organizations run smoothly through reliable IT infrastructure, technical support, and practical digital solutions that keep businesses and communities connected.</p>
+                    <div class="cta-group">
+                        <a href="#contact" class="btn btn-primary">Get in Touch</a>
+                        <a href="#experience" class="btn btn-secondary">View Experience</a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <img src="img/joe.jpeg" alt="Josef Nashilongo portrait" class="profile-image">
+                </div>
             </div>
-            <div class="card">
-                <h3>Problem-Solving Expertise</h3>
-                <p>Efficient diagnostics and solutions to ensure minimal downtime and maximum productivity.</p>
+        </section>
+
+        <section id="about" class="section section-light">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">About Me</p>
+                    <h2>Building resilient systems and lasting impact.</h2>
+                </div>
+                <div class="about-grid">
+                    <div class="about-image-wrap">
+                        <img src="img/Josef.jpeg" alt="Josef Nashilongo" class="about-image">
+                    </div>
+                    <div class="about-copy">
+                        <p>I am Josef Nashilongo, a skilled IT professional based in Windhoek, Namibia, with hands-on experience in system administration, network support, infrastructure management, and technical troubleshooting.</p>
+                        <p>My work is rooted in reliability, problem-solving, and a strong commitment to helping people and organizations function efficiently. I enjoy turning technical challenges into practical solutions that improve productivity, security, and day-to-day operations.</p>
+                        <p>Beyond technology, my journey with a heart condition has shaped my resilience and deepened my mission to support others. I am proud to contribute to advocacy work through the Namibia Heart Foundation and international health initiatives, including representation at the World Congress on Rheumatic Heart Disease in Perth, Australia.</p>
+                    </div>
+                </div>
             </div>
-            <div class="card">
-                <h3>Hands-On Experience</h3>
-                <p>Experienced in server maintenance, security protocols, and user support to keep IT systems running smoothly.</p>
+        </section>
+
+        <section id="experience" class="section">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">Experience</p>
+                    <h2>Professional highlights.</h2>
+                </div>
+                <div class="timeline">
+                    <article class="timeline-item">
+                        <span class="date">July 2026 – Present</span>
+                        <h3>Promotional Agent</h3>
+                        <h4>Paratus Namibia</h4>
+                        <p>Supporting consumer engagement and brand awareness while promoting reliable communication and digital connectivity solutions.</p>
+                    </article>
+                    <article class="timeline-item">
+                        <span class="date">Previous</span>
+                        <h3>System Administrator Intern</h3>
+                        <h4>Khomas Regional Council</h4>
+                        <p>Managed local network infrastructure, supported desktop users, maintained servers, and helped streamline digital operations in a public service environment.</p>
+                    </article>
+                    <article class="timeline-item">
+                        <span class="date">Advocacy</span>
+                        <h3>Ambassador / Patient Advocate</h3>
+                        <h4>Namibia Heart Foundation</h4>
+                        <p>Advocating for equitable health access, patient engagement, and community-driven awareness initiatives with a focus on heart health and wellbeing.</p>
+                    </article>
+                </div>
             </div>
-        </div>
-    </section>
-    <section id="about">
-      <h2>About Me</h2>
-      <img src="img/Josef.jpeg" alt="Josef Nashilongo" width="200" height="auto" class="about-image">
-      <p>I’m Josef Nashilongo, a skilled System Administrator and IT Technician based in Windhoek, Namibia. With hands-on experience managing IT systems and providing technical support, I am passionate about optimizing technology to boost productivity and security for organizations.</p>
-      <p>I specialize in troubleshooting, IT infrastructure management, and database management across both Windows and Linux systems, always striving to provide seamless and secure IT operations.</p>
-      
-      <p>Beyond my technical expertise, I have a unique perspective shaped by my journey with a heart condition. This experience has not only taught me resilience but has also inspired my dedication to supporting others, whether it's through IT solutions or offering encouragement to individuals facing similar challenges.</p>
-      
-      <p>Driven by resilience and problem-solving, I approach each task with a commitment to reliability, meticulous attention to detail, and a belief in the power of technology to create positive change. For me, IT isn’t just about fixing systems; it's about providing the support that empowers individuals and organizations to work efficiently and with peace of mind.</p>
-      
-      <p>In my spare time, I enjoy reading, researching new tech trends, and staying updated on industry developments. I’m also an avid soccer fan and find relaxation in catching up on the latest games and news.</p>
-  </section>
-    <!-- Core Values Section -->
-    <section id="values">
-        <h2>Core Values</h2>
-        <p><strong>Purpose-Driven Approach:</strong> My experience with a heart condition has fostered resilience, bringing a unique mindset to IT problem-solving.</p>
-        <p><strong>Reliability and Support:</strong> I pride myself on being a steady source of technical guidance, keeping users and organizations efficient and connected.</p>
-    </section>
+        </section>
 
-    <!-- Projects Section -->
-    <section id="projects">
-        <h2>Featured Project</h2>
-        <p>Experience at Khomas Regional Council as a System Administrator Intern, where I managed network infrastructure and supported end-users with technical assistance.</p>
-    </section>
+        <section id="skills" class="section section-light">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">Core Strengths</p>
+                    <h2>What I bring to every role.</h2>
+                </div>
+                <div class="skill-grid">
+                    <div class="skill-card">
+                        <h3>Technical Excellence</h3>
+                        <p>Network infrastructure support, systems troubleshooting, and IT operations across Windows-based environments.</p>
+                    </div>
+                    <div class="skill-card">
+                        <h3>Problem Solving</h3>
+                        <p>Efficient diagnosis and practical troubleshooting to reduce downtime and keep teams productive.</p>
+                    </div>
+                    <div class="skill-card">
+                        <h3>Resilience & Support</h3>
+                        <p>Offering dependable support and a calm, solutions-focused mindset in high-pressure technical situations.</p>
+                    </div>
+                    <div class="skill-card">
+                        <h3>Leadership & Advocacy</h3>
+                        <p>Combining technical capability with community advocacy, outreach, and people-centered communication.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-    <!-- Contact Section -->
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <p>Feel free to reach out for collaboration or inquiries.</p>
-        <div class="contact-info">
-            <p><strong>Email:</strong> <a href="mailto:nashilongojosef@outlook.com">nashilongojosef@outlook.com</a></p>
-            <p><strong>Phone:</strong> <a href="tel:+264815513254">+264 81 551 3254</a></p>
-        </div>
-        <form action="https://formspree.io/f/xjgelkqj" method="POST">
-            <input type="text" name="name" placeholder="Your Name" required>
-            <input type="email" name="email" placeholder="Your Email" required>
-            <textarea name="message" rows="4" placeholder="Your Message"></textarea>
-            <button type="submit" class="btn-primary">Send Message</button>
-        </form>
-    </section>
+        <section id="contact" class="section contact-section">
+            <div class="container contact-wrap">
+                <div>
+                    <p class="eyebrow">Contact</p>
+                    <h2>Let’s connect.</h2>
+                    <p class="contact-lead">I’m available for collaboration, technical support opportunities, and professional conversations.</p>
+                    <div class="contact-info">
+                        <p><strong>Email:</strong> <a href="mailto:nashilongojosef@outlook.com">nashilongojosef@outlook.com</a></p>
+                        <p><strong>Phone:</strong> <a href="tel:+264815513254">+264 81 551 3254</a></p>
+                        <p><strong>Location:</strong> Windhoek, Namibia</p>
+                    </div>
+                </div>
 
-  </body>
+                <form action="https://formspree.io/f/xjgelkqj" method="POST" class="contact-form">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" rows="5" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
 
     <footer>
-        <p>&copy; 2024 Josef Nashilongo | Windhoek, Namibia</p>
+        <div class="container footer-wrap">
+            <p>&copy; 2026 Josef Nashilongo | Windhoek, Namibia</p>
+        </div>
     </footer>
+</body>
 </html>
 
